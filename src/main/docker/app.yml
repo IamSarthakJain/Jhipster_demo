@@ -9,7 +9,7 @@ services:
       - SPRING_DATASOURCE_URL=jdbc:mysql://jhipster_demo-mysql:3306/jhipster_demo?useUnicode=true&characterEncoding=utf8&useSSL=false
       - JHIPSTER_SLEEP=30 # gives time for other services to boot before the application
     ports:
-      - 8080:8080
+      - 2020:2020
   jhipster_demo-mysql:
     extends:
       file: mysql.yml
